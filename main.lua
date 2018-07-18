@@ -1,5 +1,6 @@
 function love.load()
-  -- body...
+  -- Ladataan classic.lua
+  Object = require "classic"
 end
 
 function love.update(dt)
