@@ -3,9 +3,13 @@ function love.load()
 end
 
 function love.update(dt)
-  -- body...
+  function love.keypressed(k)
+   if k == 'escape' then
+      love.event.quit()
+   end
+  end
 end
 
 function love.draw()
-  -- body...
+  love.graphics.print("Painapa Esk", 1920 / 2, 1080 / 2)
 end
